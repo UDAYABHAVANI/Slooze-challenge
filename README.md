@@ -59,5 +59,90 @@ snowflake/
 ---
 
 ## 🏗️ How to Run
+# 🧊 Slooze Inventory Optimization & Sales Analytics Challenge
+
+## 🔍 Project Overview
+
+This project presents a complete analytics solution for the **Slooze Data Science & Analytics Take-Home Challenge**, focusing on inventory control, purchase optimization, and sales insights using **Snowflake Cloud Data Warehouse**.
+
+All analysis was conducted using **Snowflake SQL**, and visualizations were built with **Snowsight Dashboards** for live interaction.
+
+---
+
+## ✅ Access Credentials (Snowflake Reader Account)
+
+You can view **all queries, tables, and dashboards** using the provided Reader Account below:
+
+- 🔐 **Login URL**: [https://nniisdz-slooze_reader_admin.snowflakecomputing.com](https://nniisdz-slooze_reader_admin.snowflakecomputing.com)
+- 👤 **Username**: `slooze_reader_admin`
+- 🔑 **Password**: `StrongPassword123`
+
+> _Please use the Snowsight interface for easiest navigation and dashboard access._
+
+---
+
+## 🧊 Snowflake Details
+
+- 📚 **Database**: `SLOOZE_DB`
+- 📁 **Schema**: `SLOOZE_SCHEMA`
+- ⚙️ **Warehouse**: `COMPUTE_WH`
+- 📄 **All analysis done via SQL views and shared dashboards.**
+
+---
+
+## 📊 Dashboards (Click to View)
+
+| Step | Dashboard | Link |
+|------|-----------|------|
+| 1️⃣ | **Demand Forecasting** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/demand-forecast-dashboard-dNLS8M6ov) |
+| 2️⃣ | **ABC Analysis** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/abc-analysis-dashboard-dOzgVUcei) |
+| 3️⃣ | **EOQ Analysis** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/eoq-analysis-dashboard-dDPjYtaRC) |
+| 4️⃣ | **High Margin Products** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/high-margin-products-dashboard-dDfZFvh8I) |
+| 5️⃣ | **Lead Time Analysis** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/lead-time-analysis-dashboard-dBpfVmSuy) |
+| 6️⃣ | **Monthly Sales - Top Brands** | [View Dashboard](https://app.snowflake.com/nniisdz/fv95175/#/monthly-sales-top-brands-dashboard-dY76haIGY) |
+
+---
+
+## 📂 Views Available
+
+All analysis steps were implemented as **Snowflake SQL Views**:
+
+- `DEMAND_FORECAST_VIEW`
+- `ABC_ANALYSIS_VIEW`
+- `VW_EOQ_ANALYSIS`
+- `VW_REORDER_POINT_ANALYSIS`
+- `VW_HIGH_MARGIN_PRODUCTS`
+- `VW_LEAD_TIME_ANALYSIS`
+- `VW_VENDOR_EFFICIENCY_SCORE`
+- `VW_MONTHLY_SALES_TOP_BRANDS`
+
+You can `SELECT * FROM <view_name>` to inspect each model.
+
+---
+
+## 🚀 How to Explore
+
+1. Log in using the credentials above.
+2. Navigate to the `SLOOZE_DB` → `SLOOZE_SCHEMA`.
+3. Use the **Dashboards** tab in Snowsight to access each visual analysis.
+4. Use the **SQL Editor** to explore the source tables or views.
+
+---
+
+## 📬 Submission Contact
+
+Please reach out for any questions:
+
+📧  purugulaudayabhavani@gmail.com 
+🔗 [LinkedIn](https://www.linkedin.com/in/udaya-bhavani-p-1a6151281)
+
+---
+
+## 💡 Bonus
+
+All transformations are done in Snowflake using scalable SQL.  
+This approach is cloud-native, performant, and ideal for real-time analytics!
+
+---
 
 
